@@ -1,7 +1,7 @@
 exports.getProfile = (req, res) => {
     try {
         const data = {
-            name: 'Prof. Dr. La Ode Muhammad Farhan Fauzan',
+            name: 'Mr. La Ode Muhammad Farhan Fauzan',
             position: 'Middle Software Engineer'
         }
         return sendSuccess(res, 200, data);
